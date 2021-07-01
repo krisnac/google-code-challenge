@@ -49,7 +49,8 @@ class VideoPlayer:
     def stop_video(self):
         """Stops the current video."""
 
-        print("stop_video needs implementation")
+        print('Playing video:',video_id)
+        print('Stopping video:',video_id)
 
     def play_random_video(self):
         """Plays a random video from the video library."""
